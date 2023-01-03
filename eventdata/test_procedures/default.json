@@ -41,10 +41,6 @@
           "operation": {
             "operation-type": "index-stats",
             "index": "_all",
-            "condition": {
-              "path": "_all.total.merges.current",
-              "expected-value": 0
-            },
             "retry-until-success": true,
             "include-in-reporting": false
           }
